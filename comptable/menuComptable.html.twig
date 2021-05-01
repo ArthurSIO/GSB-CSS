@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Menu Comptable{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" type="text/css" />
+{% endblock %}
+
+{% block body %}
+
+
+{%include 'comptable/enteteComptable.html.twig'%}
+
+{% endblock %}

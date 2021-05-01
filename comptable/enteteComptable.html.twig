@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+  <ul>
+      <!-- 
+      <ul id="submenu">
+        <li><a href="http://www.jochaho.com/wordpress/difference-between-svg-vs-canvas/">Difference between SVG vs. Canvas</a></li>
+        <li><a href="http://www.jochaho.com/wordpress/new-features-in-html5/">New features in HTML5</a></li>
+        <li><a href="http://www.jochaho.com/wordpress/creating-links-to-sections-within-a-webpage/">Creating links to sections within a webpage</a></li>
+      </ul>
+       -->
+    </li>
+    <li><img src="/images/gsb1.png" class="img3"/></li>
+    <li><a href="{{path( 'donnerDate')}}">Valider fiche de frais</a></li>
+    <li><a>Suivre paiement fiche de frais</a></li>
+    <li><a href="#">Menu</a></li>
+    <li style="float:right"><a href="{{path( 'accueil')}}">Déconnexion</a></li>
+    <li style="float:right"><a >{{login}}</a></li>
+
+  </ul>
+
+
+{% endblock %}
