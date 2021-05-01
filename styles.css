@@ -1,0 +1,328 @@
+.center-div {
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    background-color: #FFFFFF;
+        border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-style: normal;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #30A6E6;
+}
+
+	
+	
+
+.acceuil{
+  color: #2196f3;
+}
+
+
+.btn-visiteur{
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 160px ;
+  left: 30% ;
+  margin: 0 auto;
+
+}
+.btn-comptable{
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 160px ;
+  right: 30% ;
+  margin: 0 auto;
+}
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+.login-container
+{
+    top: 0px ;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    padding: 100px 40px;
+    position: relative;
+    color: #FFF;
+    overflow: hidden;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .3rem;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.7);
+}
+
+.login-container .video-background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.login-container .logo
+{
+    position: relative;    
+}
+
+.login-container .logo i
+{
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 20px);
+    font-size: 40px;
+    color: #3d3f53;
+}
+.login-container input:not([type="submit"]):not([type="button"])
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: Open Sans;
+    border: none;
+    padding: 7px 10px 7px 42px;
+    background-color: rgba(255,255,255,0.7);
+    color: #3d3f53;
+    font-family: Open Sans;
+    box-shadow: 0 1px 3px 0px rgba(38, 38, 38, 0.5);
+    font-weight: bold;
+}
+
+.login-container .input-icon
+{
+    position: absolute;
+    margin-left: 2px;
+    border-right: 2.5px solid #3d3f53;
+    padding-right: 2.1px;
+    color: #3d3f53;
+}
+
+.login-container input[type="submit"]
+{
+    border: none;
+    width: 40%;
+    padding: 7px 10px;
+    text-align: center;
+    font-family: Open Sans;
+    background-color: #3d3f53;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    transition: 0.4s all;
+    float: right ;
+    margin : 10px ;
+}
+
+.login-container input[type="submit"]:hover
+{
+    color: #3d3f53;
+    background-color: #FFF;
+}
+
+.login-container input:focus
+{
+    outline: none;
+}
+.wrapper{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+  font-weight: bold;
+}
+
+
+
+.active {
+  border-bottom: 2px solid #4A4A4A;
+  border-radius: 2px;
+}
+.form {
+  float: right;
+}
+.menu {
+  float: left;
+  position:relative;
+}
+.menu li
+{
+position:absolute;
+bottom:0;
+}
+.corp{
+    width: 950px;
+    margin: auto; 
+    padding: 20px;
+    text-align: center;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.div1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.div2{
+  text-align: left;
+  width: 160px;
+	height: 100px;
+  display: inline;
+}
+
+.pageV{
+	color : #fff;
+}
+
+table {
+border: medium solid #000000;
+width: 50%;
+}
+
+td, th {
+border: thin solid #6495ed;
+width: 50%;
+}
+
+.img1{
+	width: 28px;
+	height: 28px;
+  margin-top: 2px;
+}
+.img2{
+	width: 160px;
+	height: 100px;
+}
+.img3{
+	width: 70px;
+	height: 45px;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+  background-image: url('/images/123.jpg');
+  background-size: cover;
+	font-family: consolas ;
+}
+
+.couleur-b-contour
+{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.couleur-b-contour:hover
+{
+	color: #255784;
+	background: #2196f3 ;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	transition-delay: 1s;
+}
+.couleur-b-contour span
+{
+	position: absolute;
+	display: block;
+}
+.couleur-b-contour span:nth-child(1)
+{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#2196f3);
+}
+.couleur-b-contour:hover span:nth-child(1)
+{
+	left: 100%;
+	transition: 1s;
+}
+.couleur-b-contour span:nth-child(3)
+{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#2196f3);
+}
+.couleur-b-contour:hover span:nth-child(3)
+{
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+.couleur-b-contour span:nth-child(2)
+{
+	top:-100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#2196f3);
+}
+.couleur-b-contour:hover span:nth-child(2)
+{
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+.couleur-b-contour span:nth-child(4)
+{
+	bottom:-100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#2196f3);
+}
+.couleur-b-contour:hover span:nth-child(4)
+{
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
